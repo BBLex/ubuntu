@@ -10,7 +10,7 @@ for number in range(1,14):
 print len(DECK)
 
 left = random.choice(list(DECK.keys()))
-print left
+print '┌──┐\n│ 2♠│\n└──┘'
 
 del DECK [left]
 print len(DECK)
