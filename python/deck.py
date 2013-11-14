@@ -9,6 +9,13 @@ for number in range(1,14):
  
 print len(DECK)
 
-x = random.choice(list(DECK.keys()))
-print x
+left = random.choice(list(DECK.keys()))
+print left
 
+del DECK [left]
+print len(DECK)
+
+right = random.choice(list(DECK.keys()))
+print right
+del DECK [right]
+print len(DECK)
